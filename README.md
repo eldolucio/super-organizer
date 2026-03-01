@@ -1,6 +1,16 @@
-# Super Organizer Pro 🧹 (Multi-Platform)
+# Super Organizer Pro 🧹 (Banana Edition 🍌)
 
-Um conjunto de scripts poderosos para organizar automaticamente sua **Mesa**, **Downloads** e **Documentos** em pastas inteligentes por tipo de arquivo e data.
+Um conjunto de scripts poderosos para organizar automaticamente sua **Mesa**, **Downloads** e **Documentos** em pastas inteligentes por tipo de arquivo e data. Agora com o toque especial da **Banana Edition**!
+
+---
+
+## 📸 Prévias do Sistema
+
+### 🍏 macOS
+![macOS Banana Organizer](https://github.com/eldolucio/super-organizer/raw/main/public/assets/macos_preview.png)
+
+### 🐧 Linux
+![Linux Banana Organizer](https://github.com/eldolucio/super-organizer/raw/main/public/assets/linux_preview.png)
 
 ---
 
@@ -51,31 +61,6 @@ Para rodar o script automaticamente todos os dias às 18:00:
    ```
 3. Salve e feche. O script agora rodará sozinho diariamente!
 
-### 🪟 Windows (Agendador de Tarefas)
-Para rodar automaticamente no Windows:
-
-1. Abra o **Agendador de Tarefas** (Task Scheduler).
-2. Clique em **"Criar Tarefa Básica..."**.
-3. Dê um nome (ex: "Organizador de Arquivos").
-4. Escolha a frequência (ex: "Diariamente").
-5. Na ação, selecione **"Iniciar um programa"**.
-6. No campo "Programa/script", digite: `powershell.exe`
-7. No campo "Adicionar argumentos", digite:
-   ```powershell
-   -ExecutionPolicy Bypass -File "C:\caminho\para\seu\organize_windows.ps1"
-   ```
-8. Conclua. O Windows cuidará do resto!
-
 ---
 
-## 📂 Categorias Inteligentes
-- **Imagens**: Fotos, Vetores, Ícones, RAW, Design (PSD/FIG).
-- **Vídeos**: Filmes, Web, Edição (PRPROJ).
-- **Áudios**: Músicas, Podcasts, Produção.
-- **Documentos**: PDF, Word, Excel, PowerPoint, Planilhas.
-- **Código**: Web, Backend, Scripts, Banco de Dados.
-- **Outros**: Organizados automaticamente por **Ano/Mês**.
-
----
-
-Desenvolvido com ❤️ por [eldolucio](https://github.com/eldolucio).
+Desenvolvido com ❤️ e 🍌 por [eldolucio](https://github.com/eldolucio).
